@@ -1,27 +1,18 @@
-import { gql, useQuery } from "@apollo/client";
-import { Header } from "./components/Header";
-import { Evento } from "./pages/Evento";
+import { ApolloProvider} from "@apollo/client";
+import { BrowserRouter } from "react-router-dom";
+import { client } from "./lib/apollo";
+import { Router } from "./Router";
 
-const GET_LESSONS_QUERY = gql`
-  query {
-    lessons {
-      id
-      title
-    }
-  }
-`;
 
-interface Lesson {
-  id: string;
-  title: string;
-}
 
 export function App() {
-  const { data } = useQuery<{ lessons: Lesson[] }>(GET_LESSONS_QUERY);
+
 
   return (
-    <>
-      <Evento/>
-    </>
+    <ApolloProvider client={client}>
+      <BrowserRouter>
+        <Router />
+      </BrowserRouter>
+    </ApolloProvider>
   );
 }
