@@ -6,6 +6,10 @@
 
 ![Capa do projeto](/.github/Capa.png)
 
+## 💻  Descrição 
+
+Um projeto que simula uma plataforma de eventos é uma aplicação que permite que os usuários possam participar de eventos. A plataforma geralmente possui recursos que permitem a criação de eventos, como cadastro de informações, data e hora. O objetivo da plataforma é oferecer uma maneira fácil e eficiente para a organização e gerenciamento de eventos.
+
 ## 🧪 Tecnologias
 
 Esse projeto foi desenvolvido com
@@ -31,16 +35,12 @@ $ cd FrontEnd-EventPlatform-ReactTs
 $ npm install 
 # Inicie o projeto
 $ npm run dev
-```
-
-## 💻 Projeto
-
-### Projeto de uma plataforma de eventos com layout dinâmico com as aulas e lives  
+``` 
 
 ## 🔖 Layout
 
-### Você pode visualizar o layout do projeto através do link abaixo:
+Você pode visualizar o layout do projeto através do link abaixo:
 
 - <a href="https://www.figma.com/community/file/1120711251998877938">Layout Web</a>
 
-### Lembrando que você precisa ter uma conta no <a href="http://figma.com/">Figma</a>.
+Lembrando que você precisa ter uma conta no <a href="http://figma.com/">Figma</a>.
